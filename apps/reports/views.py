@@ -1,3 +1,7 @@
-from django.shortcuts import render
+from django.views.generic import TemplateView
 
-# Create your views here.
+class ReportListView(TemplateView):
+    template_name = 'reports/report_list.html'
+
+class ReportDetailView(TemplateView):
+    template_name = 'reports/report_detail.html'
