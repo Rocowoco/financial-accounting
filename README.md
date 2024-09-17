@@ -32,7 +32,7 @@ git clone https://github.com/Rocowoco/financial-accounting.git
 ### 2. Navigate to the project directory:
 
 ```bash
-cd finaccounting
+cd financial-accounting
 ```
 
 ### 3. Set up a virtual environment:
@@ -40,4 +40,21 @@ For Windows:
 ```bash
 python -m venv venv
 venv\Scripts\activate
+```
+For MacOS/Linux:
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+### 4. Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+### 5. Install Pillow (required for handling image fields):
+
+```bash
+pip install Pillow
 ```
