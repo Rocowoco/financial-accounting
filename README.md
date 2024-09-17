@@ -84,3 +84,10 @@ financial-accounting/
 └── venv/                # Virtual environment (not committed to version control)
 ```
 ## Setup
+
+### 1. Migrate the database:
+
+```bash
+python manage.py makemigrations
+python manage.py migrate
+```
