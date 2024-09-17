@@ -61,6 +61,9 @@ pip install Pillow
 
 ## Project Structure
 
+Here is the project structure:
+
+```plaintext
 financial-accounting/
 │
 ├── apps/
