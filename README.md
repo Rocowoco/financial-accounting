@@ -137,12 +137,12 @@ Key points about this structure:
 
 Represents individual financial transactions (income/expenses).
 
-- user: Foreign key to the CustomUser model, linking the transaction to a user.
-- category: Foreign key to the Category model. Null if the category is deleted.
-- amount: Decimal field for the transaction amount, up to 10 digits with 2 decimal places.
-- description: Optional text description of the transaction.
-- transaction_type: CharField to specify whether it's an income or expense.
-- date: Date when the transaction occurred.
+- `user`: Foreign key to the CustomUser model, linking the transaction to a user.
+- `category`: Foreign key to the Category model. Null if the category is deleted.
+- `amount`: Decimal field for the transaction amount, up to 10 digits with 2 decimal places.
+- `description`: Optional text description of the transaction.
+- `transaction_type`: CharField to specify whether it's an income or expense.
+- `date`: Date when the transaction occurred.
 
 ### 2. Budget (apps.budgets.models.Budget):
 
