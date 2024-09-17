@@ -67,12 +67,12 @@ Here is the project structure:
 financial-accounting/
 │
 ├── apps/
-│   ├── budgets/         # App for managing budgets: setting limits by categories and periods
-│   ├── categories/      # App for managing categories for transactions and budgets
-│   ├── reports/         # App for managing reports: graphs, charts and statistics on income and expenses
-│   ├── transactions/    # App for managing income and expenses: adding, editing and deleting transactions
-│   ├── users/           # App for managing users: registration, authentication, profile editing
-│   └── usettings/       # App for managing user settings: currency selection, language, date format
+│   ├── budgets/         # Managing budgets: setting limits by categories and periods
+│   ├── categories/      # Managing categories for transactions and budgets
+│   ├── reports/         # Managing reports: graphs, charts and statistics on income and expenses
+│   ├── transactions/    # Managing income and expenses: adding, editing and deleting transactions
+│   ├── users/           # Managing users: registration, authentication, profile editing
+│   └── usettings/       # Managing user settings: currency selection, language, date format
 │
 ├── finaccounting/       # Main Django project configuration
 ├── templates/           # HTML-files for apps
@@ -80,6 +80,6 @@ financial-accounting/
 ├── .gitignore           # List of files and directories ignored by git
 ├── manage.py            # Django's command-line utility for administrative tasks
 ├── requirements.txt     # Python dependencies required by the project
-├── README.md            # Guide for developers, explaining what the project is and how to set it up
+├── README.md            # Guide for devs, explaining what the project is and how to set it up
 └── venv/                # Virtual environment (not committed to version control)
 
