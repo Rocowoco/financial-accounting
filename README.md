@@ -115,3 +115,7 @@ To manage transactions, budgets, and user settings, log into the admin panel usi
 ```plaintext
 http://127.0.0.1:8000/admin/
 ```
+Admin Features:
+- Manage transactions: Add, edit, or delete income and expense transactions.
+- Manage budgets: Create and manage personal budgets.
+- Manage users: Edit user details, set permissions, and assign avatars.
