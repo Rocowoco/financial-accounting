@@ -73,6 +73,7 @@ financial-accounting/
 │   └── usettings/       # Application for managing user settings
 │
 ├── finaccounting/       # Main Django project configuration
+├── templates/           # HTML-files for apps
 │
 ├── .gitignore           # List of files and directories ignored by git
 ├── manage.py            # Django's command-line utility for administrative tasks
