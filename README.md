@@ -113,5 +113,5 @@ Visit http://127.0.0.1:8000/ to view the app locally and http://127.0.0.1:8000/a
 To manage transactions, budgets, and user settings, log into the admin panel using the superuser account you created.
 
 ```plaintext
-URL: http://127.0.0.1:8000/admin/
+http://127.0.0.1:8000/admin/
 ```
