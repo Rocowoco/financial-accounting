@@ -133,4 +133,6 @@ Key points about this structure:
 
 ## Models
 
+### 1. Transaction (apps.transactions.models.Transaction):
 
+Represents individual financial transactions (income/expenses).
