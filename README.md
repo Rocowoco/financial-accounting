@@ -136,7 +136,7 @@ Key points about this structure:
 ### 1. Transaction (apps.transactions.models.Transaction):
 
 Represents individual financial transactions (income/expenses).
-Fields:
+
 - user: Foreign key to the CustomUser model, linking the transaction to a user.
 - category: Foreign key to the Category model. Null if the category is deleted.
 - amount: Decimal field for the transaction amount, up to 10 digits with 2 decimal places.
