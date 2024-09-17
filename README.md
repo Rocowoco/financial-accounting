@@ -58,3 +58,20 @@ pip install -r requirements.txt
 ```bash
 pip install Pillow
 ```
+
+## Project Structure
+
+financial-accounting/
+│
+├── apps/
+│   ├── budgets/         # Application for managing budgets
+│   ├── categories/      # Application for managing transaction categories
+│   ├── transactions/    # Application for managing income and expenses
+│   └── usettings/       # Application for managing user settings
+│
+├── finaccounting/       # Main Django project configuration
+│
+├── .gitignore           # List of files and directories ignored by git
+├── manage.py            # Django's command-line utility for administrative tasks
+├── requirements.txt     # Python dependencies required by the project
+└── venv/                # Virtual environment (not committed to version control)
