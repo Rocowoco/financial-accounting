@@ -33,3 +33,11 @@ git clone https://github.com/Rocowoco/financial-accounting.git
 
 ```bash
 cd finaccounting
+```
+
+### 3. Set up a virtual environment:
+For Windows:
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
