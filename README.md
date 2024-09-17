@@ -187,3 +187,7 @@ To manage user settings: currency selection, lang, date format.
 - currency: CharField for the user's preferred currency (default is 'USD').
 - language: CharField for the user's preferred language (default is 'en').
 - dark_mode: Boolean field indicating if dark mode is enabled (default is False).
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for more information.
