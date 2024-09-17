@@ -77,4 +77,6 @@ financial-accounting/
 ├── .gitignore           # List of files and directories ignored by git
 ├── manage.py            # Django's command-line utility for administrative tasks
 ├── requirements.txt     # Python dependencies required by the project
+├── README.md            # Guide for developers, explaining what the project is and how to set it up
 └── venv/                # Virtual environment (not committed to version control)
+
