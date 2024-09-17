@@ -67,10 +67,12 @@ Here is the project structure:
 financial-accounting/
 │
 ├── apps/
-│   ├── budgets/         # Application for managing budgets
-│   ├── categories/      # Application for managing transaction categories
-│   ├── transactions/    # Application for managing income and expenses
-│   └── usettings/       # Application for managing user settings
+│   ├── budgets/         # App for managing budgets: setting limits by categories and periods
+│   ├── categories/      # App for managing categories for transactions and budgets
+│   ├── reports/         # App for managing reports: graphs, charts and statistics on income and expenses
+│   ├── transactions/    # App for managing income and expenses: adding, editing and deleting transactions
+│   ├── users/           # App for managing users: registration, authentication, profile editing
+│   └── usettings/       # App for managing user settings: currency selection, language, date format
 │
 ├── finaccounting/       # Main Django project configuration
 ├── templates/           # HTML-files for apps
