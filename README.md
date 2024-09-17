@@ -91,3 +91,19 @@ financial-accounting/
 python manage.py makemigrations
 python manage.py migrate
 ```
+
+### 2. Create a superuser:
+To access the Django admin interface, create a superuser account:
+
+```bash
+python manage.py createsuperuser
+```
+Follow the prompts to set up the superuser credentials.
+
+### 3. Run the development server:
+Start the Django development server:
+
+```bash
+python manage.py runserver
+```
+Visit http://127.0.0.1:8000/ to view the app locally and http://127.0.0.1:8000/admin/ to access the admin panel.
