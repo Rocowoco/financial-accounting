@@ -133,7 +133,7 @@ Key points about this structure:
 
 ## Models
 
-### 1. Transaction (apps.transactions.models.Transaction):
+### 1. Transaction (`apps.transactions.models.Transaction`):
 
 Represents individual financial transactions (income/expenses).
 
@@ -144,49 +144,49 @@ Represents individual financial transactions (income/expenses).
 - `transaction_type`: CharField to specify whether it's an income or expense.
 - `date`: Date when the transaction occurred.
 
-### 2. Budget (apps.budgets.models.Budget):
+### 2. Budget (`apps.budgets.models.Budget`):
 
 Used to manage personal budgets.
 
-- user: Foreign key to the CustomUser model, linking the budget to the user.
-- category: Foreign key to the Category model, specifying the budget's category. Null if the category is deleted.
-- limit: Decimal field for the maximum budget amount, up to 10 digits with 2 decimal places.
-- start_date: Date when the budget period starts.
-- end_date: Date when the budget period ends.
+- `user`: Foreign key to the CustomUser model, linking the budget to the user.
+- `category`: Foreign key to the Category model, specifying the budget's category. Null if the category is deleted.
+- `limit`: Decimal field for the maximum budget amount, up to 10 digits with 2 decimal places.
+- `start_date`: Date when the budget period starts.
+- `end_date`: Date when the budget period ends.
 
-### 3. Category (apps.categories.models.Category):
+### 3. Category (`apps.categories.models.Category`):
 
 Categories for organizing financial transactions.
 
-- user: Foreign key to the CustomUser model, linking the category to the user who created it.
-- name: CharField for the category name, up to 100 characters.
-- description: Optional text field for additional details about the category.
+- `user`: Foreign key to the CustomUser model, linking the category to the user who created it.
+- `name`: CharField for the category name, up to 100 characters.
+- `description`: Optional text field for additional details about the category.
 
-### 4. CustomUser (apps.users.models.CustomUser):
+### 4. CustomUser (`apps.users.models.CustomUser`):
 
 To manage user-specific data, such as avatars, groups, permissions.
 
-- avatar: Optional image field for storing the user's avatar, with images uploaded to the avatars/ directory.
-- groups: Many-to-many relationship with auth.Group, indicating the groups the user belongs to, with a custom related name.
-- user_permissions: Many-to-many relationship with auth.Permission, specifying permissions granted to the user, with a custom related name.
+- `avatar`: Optional image field for storing the user's avatar, with images uploaded to the avatars/ directory.
+- `groups`: Many-to-many relationship with auth.Group, indicating the groups the user belongs to, with a custom related name.
+- `user_permissions`: Many-to-many relationship with auth.Permission, specifying permissions granted to the user, with a custom related name.
 
-### 5. Report (apps.reports.models.Report):
+### 5. Report (`apps.reports.models.Report`):
 
 To manage reports: graphs, charts and statistics on income and expenses.
 
-- user: Foreign key to the CustomUser model.
-- transactions: Many-to-many relationship with Transaction.
-- start_date: Start date of the report period.
-- end_date: End date of the report period.
+- `user`: Foreign key to the CustomUser model.
+- `transactions`: Many-to-many relationship with Transaction.
+- `start_date`: Start date of the report period.
+- `end_date`: End date of the report period.
 
-### 6. UserSettings (apps.usettings.models.UserSettings):
+### 6. UserSettings (`apps.usettings.models.UserSettings`):
 
 To manage user settings: currency selection, lang, date format.
 
-- user: One-to-one relationship with the CustomUser model.
-- currency: CharField for the user's preferred currency (default is 'USD').
-- language: CharField for the user's preferred language (default is 'en').
-- dark_mode: Boolean field indicating if dark mode is enabled (default is False).
+- `user`: One-to-one relationship with the CustomUser model.
+- `currency`: CharField for the user's preferred currency (default is 'USD').
+- `language`: CharField for the user's preferred language (default is 'en').
+- `dark_mode`: Boolean field indicating if dark mode is enabled (default is False).
 
 ## License
 
