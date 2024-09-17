@@ -119,3 +119,18 @@ Admin Features:
 - Manage transactions: Add, edit, or delete income and expense transactions.
 - Manage budgets: Create and manage personal budgets.
 - Manage users: Edit user details, set permissions, and assign avatars.
+
+
+## Backend-Only Structure
+
+This project focuses solely on the backend, with the architecture designed to manage personal finance data efficiently. It doesn't include any frontend code, but it’s structured in a way that makes it easy to extend with APIs or a web-based user interface in the future.
+
+Key points about this structure:
+- **Backend-focused:** All interactions happen through Django views, models, and the admin panel.
+- **Extensible:** You can easily integrate a REST API or a frontend framework like Vue or React if needed.
+- **Modular:** Each major feature (transactions, budgets, categories) is its own Django app, making it easier to maintain and expand.
+
+
+## Models
+
+
