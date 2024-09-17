@@ -82,4 +82,5 @@ financial-accounting/
 ├── requirements.txt     # Python dependencies required by the project
 ├── README.md            # Guide for devs, explaining what the project is and how to set it up
 └── venv/                # Virtual environment (not committed to version control)
-
+```
+## Setup
