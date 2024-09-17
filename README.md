@@ -136,3 +136,23 @@ Key points about this structure:
 ### 1. Transaction (apps.transactions.models.Transaction):
 
 Represents individual financial transactions (income/expenses).
+
+### 2. Budget (apps.budgets.models.Budget):
+
+Used to manage personal budgets.
+
+### 3. Category (apps.categories.models.Category):
+
+Categories for organizing financial transactions.
+
+### 4. CustomUser (apps.users.models.CustomUser):
+
+To manage user-specific data, such as avatars, groups, permissions.
+
+### 5. Report (apps.reports.models.Report):
+
+To manage reports: graphs, charts and statistics on income and expenses.
+
+### 6. UserSettings (apps.usettings.models.UserSettings):
+
+To manage user settings: currency selection, lang, date format.
