@@ -27,18 +27,3 @@ To set up this project locally, follow these steps:
 
 ```bash
 git clone https://github.com/Rocowoco/financial-accounting.git
-
-
-### 2. Navigate to the project directory:
-
-```bash
-cd financial-accounting-service
-
-
-### 3. Set up a virtual environment:
-
-For Windows:
-
-```bash
-python -m venv venv
-venv\Scripts\activate
